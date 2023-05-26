@@ -204,7 +204,13 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(../img/carousel-1.jpg);
+    background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(https://images.unsplash.com/photo-1516542076529-1ea3854896f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page-header2 {
+    background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1130&q=80);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -490,7 +496,7 @@
     padding-bottom: 40px;
     overflow: hidden;
     position: relative;
-    width: 102%;
+    width: 100%;
     background-image: url(https://e0.pxfuel.com/wallpapers/890/513/desktop-wallpaper-geometric-blue-and-yellow-light-blue-geometric-thumbnail.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -513,6 +519,7 @@
   }
 @media(max-width:786px) {
     .smallSize{
-        background-image: url();
+        height: 100%;
+        background-image: url(/img/main3.jpg);
     }
 }
