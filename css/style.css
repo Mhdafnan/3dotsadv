@@ -517,9 +517,8 @@
     margin-top: 8%;
     margin-bottom: 5%;
   }
-@media(max-width:786px) {
+@media(max-width:991px) {
     .smallSize{
-        height: 100%;
-        background-image: url(/img/main3.jpg);
+       text-align: center;
     }
 }
