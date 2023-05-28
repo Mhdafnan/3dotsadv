@@ -523,7 +523,11 @@
     }
 }
 @font-face {
-    font-family: Poppins;
-    src: url(/Fonts/Poppins-Black.ttf);
+    font-family: semiPoppins;
+    src: url(/Fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: thinPoppins;
+    src: url(/Fonts/Poppins-Thin.ttf);
 }
 
