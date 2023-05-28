@@ -39,7 +39,7 @@
 
 /*** Button ***/
 .btn {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     transition: .5s;
 }
@@ -522,5 +522,8 @@
        text-align: center;
     }
 }
-
+@font-face {
+    font-family: Poppins;
+    src: url(/Fonts/Poppins-Black.ttf);
+}
 
