@@ -101,7 +101,7 @@
 }
 
 @media (max-width: 991.98px) {
-    .navbar-light .navbar-nav .nav-link  {
+    .navbar-light .navbar-nav .nav-link {
         margin-right: 0;
         padding: 10px 0;
     }
@@ -112,8 +112,8 @@
     }
 }
 
-@media (max-width: 991.98px){
-    .addingDownload{
+@media (max-width: 991.98px) {
+    .addingDownload {
         width: 100%;
     }
 }
@@ -164,7 +164,7 @@
         position: relative;
         min-height: 500px;
     }
-    
+
     .header-carousel .owl-carousel-item img {
         position: absolute;
         width: 100%;
@@ -209,6 +209,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .page-header2 {
     background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1130&q=80);
     background-position: center center;
@@ -220,7 +221,7 @@
     background: rgba(15, 23, 43, .7);
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
 
@@ -331,6 +332,7 @@
 }
 
 @media (min-width: 768px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 200px;
@@ -338,6 +340,7 @@
 }
 
 @media (min-width: 992px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 300px;
@@ -445,52 +448,61 @@
     padding-right: 0;
     border-right: none;
 }
-.download{
+
+.download {
     color: #FFFFFF;
 }
-.subHeadingColor{
+
+.subHeadingColor {
     color: #e7b500;
 }
-.servicepara{
+
+.servicepara {
     text-align: center;
     font-family: "Heebo", sans-serif;
     font-weight: 800;
     font-size: 20px;
     color: rgb(0, 0, 0);
 }
-.serviceSubpara{
+
+.serviceSubpara {
     text-align: center;
     font-family: "Heebo", sans-serif;
     font-weight: 400;
     font-size: 15px;
     color: rgb(0, 0, 0);
 }
-.serviceIcon{
+
+.serviceIcon {
     padding-left: 43%;
     padding-top: 5%;
 }
-.serviceParaDiv{
+
+.serviceParaDiv {
     background-color: var(--light);
 }
-@media (max-width : 786px){
-    .reverse{
+
+@media (max-width : 786px) {
+    .reverse {
         flex-direction: column-reverse;
     }
 }
+
 .content {
     display: flex;
     justify-content: space-around;
     align-items: center;
-      background: none;
-    
-  }
-  
-  .value {
+    background: none;
+
+}
+
+.value {
     font-size: 100px;
     display: block;
     font-weight: bold;
     color: #fff;
-  }
+}
+
 .parallax-one {
     padding-top: 60px;
     padding-bottom: 40px;
@@ -505,55 +517,63 @@
     background-repeat: no-repeat;
     background-position: top center;
     margin: auto;
-  }
-  .parallaxpara{
+}
+
+.parallaxpara {
     margin-top: -4vh;
     text-align: center;
     font-size: 3vh;
     font-weight: 500;
     color: rgb(255, 255, 255);
-  }
-  .parallaxDiff{
+}
+
+.parallaxDiff {
     margin-top: 8%;
     margin-bottom: 5%;
-  }
+}
+
 @media(max-width:991px) {
-    .smallSize{
-       text-align: center;
+    .smallSize {
+        text-align: center;
     }
 }
+
 @font-face {
     font-family: semiPoppins;
     src: url(/Fonts/Poppins-SemiBold.ttf);
 }
+
 @font-face {
     font-family: thinPoppins;
     src: url(/Fonts/Poppins-Regular.ttf);
 }
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:100px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
-  padding-top: 8px;
-}
-.float:hover{
-    transform:scale(1.1);
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 100px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    padding-top: 8px;
 }
 
-.my-float{
-	margin-top:16px;
-   
+.float:hover {
+    transform: scale(1.1);
 }
-.mainP{
+
+.my-float {
+    margin-top: 16px;
+
+}
+
+.mainP {
     background-attachment: fixed;
     background-size: cover;
     -moz-background-size: cover;
