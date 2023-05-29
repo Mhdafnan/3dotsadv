@@ -543,7 +543,7 @@
   font-size:30px;
 	box-shadow: 2px 2px 3px #999;
   z-index:100;
-  
+  padding-top: 8px;
 }
 .float:hover{
     transform:scale(1.1);
@@ -552,4 +552,14 @@
 .my-float{
 	margin-top:16px;
    
+}
+.mainP{
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    overflow: hidden;
+    position: relative;
 }
